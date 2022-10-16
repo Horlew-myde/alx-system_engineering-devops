@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Read file and manipulate fields to generate story
-# Author: Waython Yesse
 
 while IFS=":" read -r user pw uid gid uinfo homedir shell
 do

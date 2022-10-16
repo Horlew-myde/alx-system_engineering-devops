@@ -1,6 +1,5 @@
 #!/usr/bin/env bash
 # Read and extract fields in file /etc/passwd.
-# Author: Waython Yesse
 
 while read passwd; do
   echo "$passwd" | cut -d ':' -f1,3,6
